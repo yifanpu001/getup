@@ -1,4 +1,4 @@
-git submodule update --init --recursive
+git clone https://github.com/Qihang-Zhang/getup-core.git
 
 ln -s getup-core/docs ./docs
 ln -s getup-core/python_scripts ./python_scripts
