@@ -19,27 +19,8 @@ jobs:
         python-version: '3.11.5' # 根据需要更改 Python 版本
 
     - name: Make script executable
-      run: chmod +x ./bash_scripts/fetch_core.sh
+      run: chmod +x ./deploy.sh
 
     - name: Run the script
-      run: bash ./bash_scripts/fetch_core.sh
+      run: bash ./deploy.sh
       
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt # 假设所有Python依赖都在requirements.txt文件中
-
-    - name: Make script executable
-      run: chmod +x ./bash_scripts/deploy.sh
-  
-    - name: Run the script
-      run: bash ./bash_scripts/deploy.sh
-
-    - name: Make script executable
-      run: chmod +x ./bash_scripts/delete_all.sh
-  
-    - name: Run the script
-      run: bash ./bash_scripts/delete_all.sh
-
-    
-
-    
