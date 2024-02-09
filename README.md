@@ -18,7 +18,7 @@ brew install figlet
 # if you are using linux, you can install figlet by apt:
 sudo apt-get install figlet
 ```
-6. modify the parameter in `bash_scripts/deploy.sh` file to your own
+6. modify the parameter in `deploy.sh` file to your own
 ```shell
 python main.py \
 --cutoff $before_when_you_would_never_get_up_but_stay_up_late(float) \
