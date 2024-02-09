@@ -2,3 +2,8 @@ getup-core
 site
 .DS_Store
 __pycache__
+docs
+python_scripts
+scripts
+mkdocs.yml
+requirements.txt
