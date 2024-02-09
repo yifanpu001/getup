@@ -1,0 +1,3 @@
+[submodule "getup-core"]
+	path = getup-core
+	url = https://github.com/Qihang-Zhang/getup-core.git
