@@ -26,17 +26,17 @@ python main.py \
 --recent_days $how_many_day_you_want_to_show_details_of_get-up \
 --name $your_name
 ```
-7. run the following command to generate get-up data:
-
+7. modify the infomation in `personal_info.yml` file to your own
+8. run the following command to generate get-up data:
 ```shell
 bash getup.sh
 ```
-8. set the github page to the `gh-pages` branch
+9. set the github page to the `gh-pages` branch
 ![image](./pic/github-page.png)
-9. give workflow Read and write permissions:
+10. give workflow Read and write permissions:
 ![image](./pic/workflow-permission-1.png)
 ![image](./pic/workflow-permission-2.png)
-1.   set shortcut in your laptop to run the `getup.sh` command: add this in your `~/.bashrc` if you use bash, or add it in your `~/.zshrc` if you use zsh.
+11.   set shortcut in your laptop to run the `getup.sh` command: add this in your `~/.bashrc` if you use bash, or add it in your `~/.zshrc` if you use zsh.
 ```shell
 alias getup="cd $project_position; bash getup.sh"
 ```
