@@ -27,15 +27,15 @@ python main.py \
 --name $your_name
 ```
 7. modify the infomation in `personal_info.yml` file to your own
-8. run the following command to generate get-up data:
+8. set the github page to the `gh-pages` branch
+![image](./pic/github-page.png)
+9. give workflow Read and write permissions:
+![image](./pic/workflow-permisson-1.png)
+![image](./pic/workflow-permisson-2.png)
+10. run the following command to generate get-up data:
 ```shell
 bash getup.sh
 ```
-9. set the github page to the `gh-pages` branch
-![image](./pic/github-page.png)
-10. give workflow Read and write permissions:
-![image](./pic/workflow-permission-1.png)
-![image](./pic/workflow-permission-2.png)
 11.   set shortcut in your laptop to run the `getup.sh` command: add this in your `~/.bashrc` if you use bash, or add it in your `~/.zshrc` if you use zsh.
 ```shell
 alias getup="cd $project_position; bash getup.sh"
