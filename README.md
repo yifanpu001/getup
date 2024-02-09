@@ -1,10 +1,7 @@
 This is a project to document the time you get up everyday and visualize it in a website. It will document the first time when you type `getup` in your terminal everyday. The project is based on `mkdocs` and `mkdocs-material` package. The website is hosted on github page. To preview the website, please click [here](https://qihang-zhang.github.io/getup/).
 ## To make the project for your own:
 1. fork the project to your own github account and ensure github action is enabled([English Version](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository) or [Chinese Version](https://docs.github.com/zh/actions/using-workflows/disabling-and-enabling-a-workflow)).
-2. git clone the project to your local.
-```shell
-git clone https://github.com/$github_username/getup.git
-```
+2. git clone the forked project to your local.
 3. **delete** the `data` folder
 4. if you haven't install python3, please install python3 first: [python3](https://www.python.org/downloads/), [anaconda](https://www.anaconda.com/products/distribution) or [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 5. (optional)install the `sl` and `figlet` package
