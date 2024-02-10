@@ -7,10 +7,10 @@ pip install -r requirements.txt
 python ./python_scripts/merge_mkdocs.py
 
 python ./python_scripts/generate_md.py \
---cutoff 5 \
+--cutoff 0.01 \
 --getup_threshold 7.75 \
 --recent_days 30 \
---name Qihang
+--name puyifan
                       
 mkdocs gh-deploy --force
 
