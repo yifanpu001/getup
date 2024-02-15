@@ -1,4 +1,4 @@
-python3 generate_csv.py --cutoff 5
+python3 update_csv.py --cutoff 0 
 
 git add .
 git commit -m "$(date +%Y-%m-%d) update"
